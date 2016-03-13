@@ -14,6 +14,7 @@ mv pylib-master/.* .
 echo " "
 echo "Cleaning up..."
 echo " "
+rm -rf pylib-master
 rm master.tar.gz
 rm installer.sh
 
