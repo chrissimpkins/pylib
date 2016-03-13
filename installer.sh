@@ -25,4 +25,4 @@ rm master.tar.gz
 rm installer.sh
 
 echo " "
-echo "Complete. The project files are available in the PROJECT directory."
+echo "Complete."
