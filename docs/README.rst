@@ -1,0 +1,2 @@
+{{PROJECT}} Library Documentation
+=================================
