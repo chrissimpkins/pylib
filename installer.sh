@@ -8,6 +8,7 @@ echo "Unpacking the archive..."
 echo " "
 tar -xzvf master.tar.gz
 mv pylib-master/* .
+mv pylib-master/.* .
 
 echo "Cleaning up..."
 echo " "
