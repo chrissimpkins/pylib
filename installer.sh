@@ -9,7 +9,9 @@ echo "Unpacking the archive..."
 echo " "
 tar -xzvf master.tar.gz
 mv pylib-master/* .
-mv pylib-master/.* .
+mv pylib-master/.gitignore ./.gitignore
+mv pylib-master/.landscape.yml ./.landscape.yml
+mv pylib-master/.travis.yml ./.travis.yml
 
 echo " "
 echo "Cleaning up..."
