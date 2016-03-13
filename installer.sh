@@ -4,12 +4,14 @@ echo "Pulling the pylib archive..."
 echo " "
 curl -LO https://github.com/chrissimpkins/pylib/archive/master.tar.gz
 
+echo " "
 echo "Unpacking the archive..."
 echo " "
 tar -xzvf master.tar.gz
 mv pylib-master/* .
 mv pylib-master/.* .
 
+echo " "
 echo "Cleaning up..."
 echo " "
 rm master.tar.gz
