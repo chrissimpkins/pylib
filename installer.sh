@@ -19,10 +19,8 @@ mv pylib-master/.travis.yml ./.travis.yml
 
 echo " "
 echo "Cleaning up..."
-echo " "
 rm -rf pylib-master
 rm master.tar.gz
 rm installer.sh
 
-echo " "
 echo "Complete."
